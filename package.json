@@ -1,0 +1,23 @@
+{
+  "name": "sekaibot",
+  "version": "1.0.0",
+  "description": "SekaiDragonAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "SekaiDragonAPI"
+  },
+  "author": "Its.Alexandre",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.6.0",
+    "@types/node": "^24.5.2",
+    "@types/pg": "^8.15.5",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.2",
+    "pg": "^8.16.3"
+  }
+}
