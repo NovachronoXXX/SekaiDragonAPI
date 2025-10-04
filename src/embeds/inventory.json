@@ -1,0 +1,43 @@
+{
+  "content": "",
+  "tts": false,
+  "embeds": [
+    {
+      "id": 830001456,
+      "fields": [
+        {
+          "id": 871429930,
+          "name": "Moedas:",
+          "value": "-  {coins} Draco Nummus",
+          "inline": false
+        },
+        {
+          "id": 574833232,
+          "name": "Comidas:",
+          "value": "-  {food} Comidas",
+          "inline": false
+        },
+        {
+          "id": 733355043,
+          "name": "Artefatos:",
+          "value": "-  {artifacts} Artefatos",
+          "inline": false
+        }
+      ],
+      "title": "ZAIKO (在庫 ) Inventário",
+      "footer": {
+        "text": "Sekai Dragon's, servindo com muito agrado!",
+        "icon_url": "https://cdn.discordapp.com/avatars/1371493555906023434/04ad571e18e527cdc7edbcb830bb74f1.png"
+      },
+      "color": 4614734,
+      "thumbnail": {
+        "url": "{user.avatar_url}"
+      }
+    }
+  ],
+  "components": [],
+  "actions": {},
+  "flags": 0,
+  "username": "Sekai Dragon's",
+  "avatar_url": "https://cdn.discordapp.com/avatars/1371493555906023434/04ad571e18e527cdc7edbcb830bb74f1.png"
+}

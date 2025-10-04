@@ -1,0 +1,25 @@
+{
+  "content": "",
+  "tts": false,
+  "embeds": [
+    {
+      "id": 697307073,
+      "title": "**ŌWA RETA (覆われた)**",
+      "description": "Você já coletou suas recompensas diárias nas últimas 24 horas tapado, volte amanhã para coletar novamente, ou use ``/weekly`` para coletar sua recompensa semanal, ou ``/monthly`` para coletar sua recompensa mensal caso não tenha usado nenhum. Ultima recompensa diária coletada em {lastDaily}.\n\nSe quiser um lembrete para coletar suas recompensas use ``/reminder``, ou use ``/shop`` para trocar suas moedas por itens. Caso queira ver os itens que já coletou, use ``/inventory`` para ver seu inventário, boa jornada aventureiro...",
+      "color": 11632350,
+      "footer": {
+        "text": "Sekai Dragon's, servindo com muito agrado!",
+        "icon_url": "https://cdn.discordapp.com/attachments/947143655150481488/1376574340111532064/ChatGPT_Image_25_de_mai._de_2025_14_30_19.png?ex=68df3b02&is=68dde982&hm=36583cd8d258cf067915d0e5751de41f5f70279bd0fdc6f8bb7bc6cabb937f1d&"
+      },
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/933700215330975744/1377461798013243432/Miss-Kobayashis-Dragon-Maid-relax-1024x577.jpg?ex=68df29c4&is=68ddd844&hm=f6e8da400a87917c5a7becf12b88b7e8970833e952ef504391583fd1c31df655&"
+      },
+      "fields": []
+    }
+  ],
+  "components": [],
+  "actions": {},
+  "flags": 0,
+  "username": "Sekai Dragon's",
+  "avatar_url": "https://cdn.discordapp.com/avatars/1371493555906023434/04ad571e18e527cdc7edbcb830bb74f1.png"
+}

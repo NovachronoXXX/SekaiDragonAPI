@@ -1,0 +1,9 @@
+# Arquivos gerados pelo Node
+/node_modules
+/dist
+
+# Variáveis de Ambiente
+.env
+/src/generated/prisma
+
+/src/generated/prisma

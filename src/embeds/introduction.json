@@ -1,0 +1,77 @@
+{
+  "content": "",
+  "tts": false,
+  "embeds": [
+    {
+      "id": 261464780,
+      "title": "**ITADAKIMASU (いただきます)**",
+      "description": "Essa será uma aventura e tanto, serei o seu guia para essa nova jornada no mundo dos Dragões cheia de **MAGIA** ✨ e **AÇÃO** 💥 , veja quais missões te aguardam no *\"Outro Mundo (Other World)\"*. Logo abaixo terá um guia com o passo a passo de como ira funcionar suas aventuras, e por onde começar.\n\n__**COMO FUNCIONA?**__\n\nBom, imagino que esteja ansioso para começar suas aventuras e batalhas pelo mundo, ainda temos alguns passos para possibilitar isso, primeiro teremos que registrar seu perfil e sua historia no nosso reino, segue abaixo os passos a passos:\n\n**Registro de Historia:**\n\nPara começar, todos os dragões tem uma historia, e para usar criar a sua use o botão abaixo chamado ``/History``, para criar sua historia e registar no seu perfil, escolhendo seu poder, caso você já tenha pode utilizar o comando Profile para visualizar sua historia e seu perfil com suas informações.\n\n**Escolha da sua facção:**\n\nDentro do nosso reino existem três facções, a do Caos, Harmonia e dos Espectadores, a escolha das facções irá definir suas missões e aventuras futuramente, escolha com sabedoria!!\n\n``Caos:`` Procura matar e destruir todos os humanos e suas civilizações e também destruir os deuses.\n``Harmonia:`` Seu objetivo é deter a facção do Caos para que os humanos vivam entre dragões e adorem os deuses.\n``Espectadores:`` Completamente neutros, eles não intervêm nos assuntos das outras facções.\n\n__**TENHA UMA BOA JORNADA!**__\n\nE finalmente, você completou seu registro nesse mundo, agora pode finalmente dar inicio as suas aventuras nesse vasto mundo, mas para pode desbloquear suas missões diárias, combater inimigos e chefes pelo mundo, explorar dungeons, etc... Agora você pode dar inicio a sua aventura e começar o modo historia, utilizando o comando ``/Start Adventure``, agora pronto, sua jornada nesse mundo acaba de começar, para mais informações e comando utilize o botão ``Help`` abaixo.",
+      "color": 14212711,
+      "footer": {
+        "text": "A sua aventura acaba de começar...",
+        "icon_url": "https://cdn.discordapp.com/attachments/947143655150481488/1376574340111532064/ChatGPT_Image_25_de_mai._de_2025_14_30_19.png?ex=68e1de02&is=68e08c82&hm=4d97ba016e2e65451319535e2c769a348dc4ed83220e324d69ea9e34494fb307&"
+      },
+      "image": {
+        "url": "https://blog.sakugabooru.com/wp-content/uploads/2017/03/nice-place-that-dragons-will-surely-not-blow-up.jpg"
+      },
+      "fields": []
+    },
+    {
+      "id": 697533180,
+      "title": "CARTA DO DESENVOLVEDOR",
+      "description": "Caros seres vivos, venho agradecer a todos que se juntaram a essa jornada, e quero dizer que isso tudo não seria nada sem vocês, peço apenas que caso de coração queiram ajudar votando no ``Sekai Dragon's`` (nosso anfitrião), e/ou para aqueles que de coração também puderem ajuda com alguma doação, para melhorias futuras, fico eternamente grato, os botões para suporte e voto, estão logo abaixo, desde já agradeço, boa sorte aventureiros...",
+      "color": 1812435,
+      "footer": {
+        "text": "Sekai Dragon's, servindo com muito agrado!",
+        "icon_url": "https://cdn.discordapp.com/attachments/947143655150481488/1376574340111532064/ChatGPT_Image_25_de_mai._de_2025_14_30_19.png?ex=68e1de02&is=68e08c82&hm=4d97ba016e2e65451319535e2c769a348dc4ed83220e324d69ea9e34494fb307&"
+      },
+      "image": {
+        "url": "https://64.media.tumblr.com/7c96cdbea0a4c336a4306d9e907b4f8b/a9b5d55ab22f7647-fa/s1280x1920/73dad3f467034831ca3f01d5d984fcee9bdc1767.png"
+      },
+      "fields": []
+    }
+  ],
+  "components": [
+    {
+      "id": 846443827,
+      "type": 1,
+      "components": [
+        {
+          "id": 181576786,
+          "type": 2,
+          "style": 5,
+          "label": "Support",
+          "emoji": {
+            "name": "🐲",
+            "animated": false
+          },
+          "url": "https://patreon.com/ItsNovachrono",
+          "action_set_id": "990205562"
+        },
+        {
+          "id": 215715056,
+          "type": 2,
+          "style": 5,
+          "label": "Vote",
+          "emoji": {
+            "name": "❤️‍🩹",
+            "animated": false
+          },
+          "url": "https://top.gg/pt/bot/1371493555906023434",
+          "action_set_id": "245712855"
+        }
+      ]
+    }
+  ],
+  "actions": {
+    "245712855": {
+      "actions": []
+    },
+    "990205562": {
+      "actions": []
+    }
+  },
+  "flags": 0,
+  "username": "Sekai Dragon's",
+  "avatar_url": "https://cdn.discordapp.com/avatars/1371493555906023434/04ad571e18e527cdc7edbcb830bb74f1.png"
+}

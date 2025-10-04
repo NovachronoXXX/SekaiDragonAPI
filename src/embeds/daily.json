@@ -1,0 +1,25 @@
+{
+  "content": "",
+  "tts": false,
+  "embeds": [
+    {
+      "id": 840938581,
+      "title": "**OHAYO (おはよう)**",
+      "description": "Aqui estão suas recompensas diárias, volte amanhã para coletar mais!\n\n<:draconummus:1377025816772350103> `+ {daily.coins} Draco Nummus` \n<:dragonexperience:1377087587910418462> `+ {daily.dxp}`\n<:restaurant:1377113177548132473> `+ {daily.item}`\n\nSe quiser um lembrete para coletar suas recompensas use ``/reminder``, ou use ``/shop`` para trocar suas moedas por itens. Caso queira ver os itens que já coletou, use ``/inventory`` para ver seu inventário, boa jornada aventureiro...",
+      "color": 14911397,
+      "footer": {
+        "text": "Sekai Dragon's, servindo com muito agrado!",
+        "icon_url": "https://cdn.discordapp.com/attachments/947143655150481488/1376574340111532064/ChatGPT_Image_25_de_mai._de_2025_14_30_19.png?ex=68da9dc2&is=68d94c42&hm=f138465a558b7e6d21113fd5942442f149915d05763ada8f940f9a582634926f&"
+      },
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/933700215330975744/1376998166548975716/miss-kobayashis-dragon-maid-maid-tohru-kobayashi-san-chi-no-maid-dragon-anime-girls-wallpaper-preview.jpg?ex=68dad6fa&is=68d9857a&hm=59dcdb53f3f5a5c7a6bb24599629fb3f641682f960c6228fb7643d99ae3c2463&"
+      },
+      "fields": []
+    }
+  ],
+  "components": [],
+  "actions": {},
+  "flags": 0,
+  "username": "Sekai Dragon's",
+  "avatar_url": "https://cdn.discordapp.com/avatars/1371493555906023434/04ad571e18e527cdc7edbcb830bb74f1.png"
+}
