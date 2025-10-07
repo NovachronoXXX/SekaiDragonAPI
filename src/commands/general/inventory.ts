@@ -5,7 +5,7 @@
     import { fileURLToPath } from 'url';
     import { dirname, join } from 'path';
     import { PrismaClient, Prisma } from '@prisma/client';
-import { Index } from 'typeorm';
+    import { Index } from 'typeorm';
 
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = dirname(__filename);
