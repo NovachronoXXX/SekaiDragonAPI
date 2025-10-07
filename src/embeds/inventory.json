@@ -3,36 +3,47 @@
   "tts": false,
   "embeds": [
     {
-      "id": 830001456,
-      "fields": [
-        {
-          "id": 871429930,
-          "name": "Moedas:",
-          "value": "-  {coins} Draco Nummus",
-          "inline": false
-        },
-        {
-          "id": 574833232,
-          "name": "Comidas:",
-          "value": "-  {food} Comidas",
-          "inline": false
-        },
-        {
-          "id": 733355043,
-          "name": "Artefatos:",
-          "value": "-  {artifacts} Artefatos",
-          "inline": false
-        }
-      ],
-      "title": "ZAIKO (在庫 ) Inventário",
+      "id": 710757392,
+      "title": "Báu de Aventura ({cap}/500)",
+      "description": "Para usar algum item ultilize ``/use {item}``, para equipar algum equipamento ultilize ``/equip {equipamento}`` e para abrir algum báu/lootbox/presente/etc... use ``/open {nome da caixa}``, caso queira excluir algum item, use ``/delete {item}``.",
       "footer": {
         "text": "Sekai Dragon's, servindo com muito agrado!",
         "icon_url": "https://cdn.discordapp.com/avatars/1371493555906023434/04ad571e18e527cdc7edbcb830bb74f1.png"
       },
-      "color": 4614734,
+      "fields": [
+        {
+          "id": 265216847,
+          "name": "Itens de troca",
+          "value": "{coins} Draco Nummus",
+          "inline": false
+        },
+        {
+          "id": 904080647,
+          "name": "Comidas",
+          "value": " ",
+          "inline": false
+        },
+        {
+          "id": 716624721,
+          "name": "Equipamentos",
+          "value": " - ",
+          "inline": false
+        },
+        {
+          "id": 74232607,
+          "name": "Caixas",
+          "value": " - ",
+          "inline": false
+        }
+      ],
+      "author": {
+        "name": "{user.username}",
+        "icon_url": "{user.avatar_url}"
+      },
       "thumbnail": {
         "url": "{user.avatar_url}"
-      }
+      },
+      "color": 3569725
     }
   ],
   "components": [],

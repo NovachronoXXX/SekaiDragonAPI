@@ -1,0 +1,59 @@
+{   "comment": "Exemplo de como é a estrutura da coluna 'inventory' do banco de Dados.",
+    "inventory": [
+        {
+            "moedas": [
+                {
+                    "type": "DracoNummus",
+                    "quantity": 1232
+                },
+                {
+                    "type": "DracoGems",
+                    "quantity": 123
+                }
+            ],
+            "comida": [
+                {
+                    "item": "Sashimi",
+                    "quantity": 1
+                },
+                {
+                    "item": "Ramen",
+                    "quantity": 1
+                },
+                {
+                    "item": "Gyoza",
+                    "quantity": 1
+                },
+                {
+                    "item": "Tempura",
+                    "quantity": 1
+                },
+                {
+                    "item": "Onigiri",
+                    "quantity": 1
+                },
+                {
+                    "item": "Udon",
+                    "quantity": 2
+                }
+            ],
+            "equipamentos": [
+                {
+                    "artifact": [
+                        {
+                            "type": "Vida",
+                            "history": "Once upon a time...",
+                            "bonus": "+500HP"
+                        }
+                    ]
+                }
+            ],
+            "caixas": [
+                {
+                    "type": "Lootbox",
+                    "content": "+1 Udon, +1 Artefato, etc..."
+                }
+            ]
+        }
+    ]
+}

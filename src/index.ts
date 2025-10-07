@@ -11,6 +11,7 @@ import { config } from 'dotenv';
 import type { Command } from './types/Command.ts';
 import { DailyCommand } from './commands/general/daily.ts';
 import { IntroductionCommand } from './commands/general/introduction.ts';
+import { InventoryCommand } from './commands/general/inventory.ts';
 
 config();
 
@@ -30,6 +31,7 @@ client.commands = new Collection<string, Command>();
 
 client.commands.set(DailyCommand.data.name, DailyCommand);
 client.commands.set(IntroductionCommand.data.name, IntroductionCommand);
+client.commands.set(InventoryCommand.data.name, InventoryCommand);
 
 async function deployCommands() {
     const TOKEN = process.env.TOKEN;

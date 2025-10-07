@@ -16,12 +16,12 @@ datasource db {
 model usuarios {
   id            Int        @id @default(autoincrement())
   discord_id    String     @unique
-  username      String?
+  username      String?    @unique
   hasdaily      Boolean    @default(false)
   last_daily    DateTime   @updatedAt
-  dxp           Int        
-  coins         Int
-  inventory     Json       @db.JsonB @default("[]")
+  dxp           Int?       @default(0)
+  coins         Int?       @default(0)
+  inventory     Json?      @db.JsonB @default("[]")
 
   @@map("users")
 }

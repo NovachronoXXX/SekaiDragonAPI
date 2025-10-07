@@ -23,7 +23,7 @@ async function hasDaily(userId: string): Promise<boolean | null> {
             discord_id: userId
         },
         select: {
-            hasdaily: Boolean,
+            hasdaily: true,
         }
     });
 
@@ -32,6 +32,7 @@ async function hasDaily(userId: string): Promise<boolean | null> {
     }
 
     return user.hasdaily;
+
 }
 
 async function lastDaily(userId: string): Promise<Date | null> {
@@ -40,7 +41,7 @@ async function lastDaily(userId: string): Promise<Date | null> {
             discord_id: userId
         },
         select: {
-            last_daily: Date,
+            last_daily: true,
         }
     });
     if (!user) {
@@ -102,6 +103,52 @@ const dragonFoods = [
     'Gyoza'
 ];
 
+interface InventoryItem {
+  item: string;
+  quantity: number;
+}
+
+type Inventory = InventoryItem;
+
+async function addOrUpdateInventoryItem(discordId: string, newItem: Inventory) {
+  return await prisma.$transaction(async (tx) => {
+    const usuario = await tx.usuarios.findUnique({
+      where: { discord_id: discordId }
+    });
+
+    if (!usuario) {
+      throw new Error('Usuário não encontrado');
+    }
+
+    let inventory = (usuario.inventory as { item: string; quantity: number }[] | null) || [];
+    
+    if (!Array.isArray(inventory)) {
+      inventory = [];
+    }
+
+
+    const itemIndex = inventory.findIndex(invItem => 
+      invItem.item === newItem.item
+    );
+
+    if (itemIndex !== -1) {
+      inventory[itemIndex].quantity += newItem.quantity;
+    } else {
+      inventory.push({
+        item: newItem.item,
+        quantity: newItem.quantity
+      });
+    }
+
+    return await tx.usuarios.update({
+      where: { discord_id: discordId },
+      data: { 
+        inventory
+      }
+    });
+  });
+}
+
 export const DailyCommand: Command = {
     data: new SlashCommandBuilder()
         .setName('daily')
@@ -145,12 +192,12 @@ export const DailyCommand: Command = {
             const nextDaily = new Date(lastDailyReward);
             nextDaily.setHours(nextDaily.getHours() + 24);
 
-            const newObject = JSON.stringify({ item: dragonFoods[Math.floor(Math.random() * dragonFoods.length)], quantity: 1 });
-
             if (now >= nextDaily) {
                 const dailyCoins = Math.floor(Math.random() * (500 - 300 + 1)) + 300;
                 const dailyDxp = Math.floor(Math.random() * (500 - 300 + 1)) + 300;
                 const dailyItem = dragonFoods[Math.floor(Math.random() * dragonFoods.length)];
+
+                const newObject = { item: dailyItem, quantity: 1 };
 
                 let description = embedDaily.embeds[0].description;
                 description = description.replace('{daily.coins}', dailyCoins.toString());
@@ -167,12 +214,7 @@ export const DailyCommand: Command = {
                     },
                 });
 
-                await prisma.$executeRaw(
-                    Prisma.sql`
-                UPDATE users 
-                SET inventory = inventory || ${newObject}::jsonb 
-                WHERE discord_id = ${interaction.user.id}`
-                );
+                await addOrUpdateInventoryItem(interaction.user.id, newObject);
 
                 const embed = new EmbedBuilder()
                     .setTitle(embedDaily.embeds[0].title)
