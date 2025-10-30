@@ -1,9 +1,11 @@
-# 🐉 SekaiDragon API & Bot de RPG
+<h1 align="center">
+Sekai Dragon API 🐉 
+</h1>
 
 <p align="center"\>
-<img src="[https://img.shields.io/badge/Status-Em%20Andamento-yellow](https://www.google.com/search?q=https://img.shields.io/badge/Status-Em%2520Andamento-yellow)" alt="Status do Projeto"\>
-<img src="[https://img.shields.io/badge/Linguagem%20API-TypeScript-blue](https://www.google.com/search?q=https://img.shields.io/badge/Linguagem%2520API-TypeScript-blue)" alt="Linguagem da API"\>
-<img src="[https://img.shields.io/badge/Framework-Node.js-green](https://www.google.com/search?q=https://img.shields.io/badge/Framework-Node.js-green)" alt="Framework"\>
+<img src="https://img.shields.io/badge/Status-Em%20Andamento-yellow" alt="Status do Projeto"\>
+<img src="https://img.shields.io/badge/Linguagem%20API-TypeScript-blue" alt="Linguagem da API"\>
+<img src="https://img.shields.io/badge/Framework-Node.js-green" alt="Framework"\>
 </p\>
 
 ## 📜 Sobre o Projeto
