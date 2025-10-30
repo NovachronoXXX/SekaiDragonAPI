@@ -1,6 +1,9 @@
-<h1 align="center">
-Sekai Dragon API 🐉 
-</h1>
+<div align="center">
+  <h1>Sekai Dragon API 🐉</h1>
+  <img src="assets/imgs/sekaiDragonAPI-icon.png" width="400" height="400" alt="Logo do Sekai Dragon API">
+</div>
+
+***
 
 <p align="center"\>
 <img src="https://img.shields.io/badge/Status-Em%20Andamento-yellow" alt="Status do Projeto"\>
