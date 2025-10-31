@@ -48,8 +48,8 @@ A API é construída com tecnologias modernas para garantir robustez e manutenib
 | **Linguagem** | TypeScript |
 | **Runtime** | Node.js |
 | **ORM** | Prisma |
-| **Banco de Dados** | (A definir, mas compatível com Prisma: PostgreSQL, MySQL, SQLite) |
-| **API de IA** | Gemini (ou similar, dependendo da sua escolha) |
+| **Banco de Dados** | PostgreSQL |
+| **API de IA** | Gemini |
 | **Versionamento** | Git/GitHub |
 
 -----
